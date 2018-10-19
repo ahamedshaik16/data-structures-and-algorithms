@@ -1,7 +1,5 @@
 package doublyLinkedList;
 
-import oct162018.LinkedList.Node;
-
 public class DoublyLinkedList {
 
 	static DLLNode head;
