@@ -202,7 +202,11 @@ public class AddTwoNumbersLinkedList {
 		System.out.println("Added number in reverse");
 		addedNumberList.printList(addedNumberHead);
 		
+		/** Final added number, reverse it again **/
 		
+		ListNode originalAddedNumber = addedNumberList.reverseList(addedNumberHead);
+		System.out.println("Final added Number: ");
+		addedNumberList.printList(originalAddedNumber);
 	}
 
 }
